@@ -137,14 +137,14 @@ const Home = () => {
         </form>
       </section>
 
-      <section className="w-full lg:w-[50%]">
+      <section className="w-full lg:w-[50%] ">
         {isLoading && (
           <div className="text-center text-3xl text-white">Loading...</div>
         )}
-        <div className="flex gap-10 flex-wrap">
+        <div className="flex gap-10 flex-wrap ">
           {data?.map((book) => (
             <div
-              className="shadow-lg bg-blue-900 text-white p-4 rounded-lg h-[300px] w-[300px] flex flex-col gap-4"
+              className="shadow-lg bg-blue-900 text-white p-4 rounded-lg h-[30%] w-[40%] flex flex-col gap-4"
               key={book.id}
             >
               <h3 className="text-xl font-bold pb-3 mb-1 border-gray-200 text-center">
